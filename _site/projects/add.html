@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="edulabs.de">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/static/edulabs.ico">
+    <link rel="stylesheet" href="/assets/main.css">
+    
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Projekte | FabLab Cottbus e.V.</title>
+<meta property="og:title" content="Projekte" />
+<meta property="og:locale" content="de_DE" />
+<meta name="description" content="Die MitmachWerkstatt in Cottbus" />
+<meta property="og:description" content="Die MitmachWerkstatt in Cottbus" />
+<link rel="canonical" href="http://localhost:4000/projects/add" />
+<meta property="og:url" content="http://localhost:4000/projects/add" />
+<meta property="og:site_name" content="FabLab Cottbus e.V." />
+<script type="application/ld+json">
+{"name":null,"description":"Die MitmachWerkstatt in Cottbus","url":"http://localhost:4000/projects/add","headline":"Projekte","dateModified":null,"datePublished":null,"sameAs":null,"@type":"WebPage","author":null,"image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/static/edulabs-logo.svg"}},"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <!-- Piwik -->
+   <script type="text/javascript">
+       var _paq = _paq || [];
+       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+       _paq.push(['trackPageView']);
+       _paq.push(['enableLinkTracking']);
+       (function() {
+           var u = "//piwik.okfn.de/";
+           _paq.push(['setTrackerUrl', u + 'piwik.php']);
+           _paq.push(['setSiteId', '35']);
+           var d = document,
+               g = d.createElement('script'),
+               s = d.getElementsByTagName('script')[0];
+           g.type = 'text/javascript';
+           g.async = true;
+           g.defer = true;
+           g.src = u + 'piwik.js';
+           s.parentNode.insertBefore(g, s);
+       })();
+   </script>
+   <!-- End Piwik Code -->
+</head>
+<body>
+  <style>
+  html {
+    touch-action: manipulation;
+}
+  </style>
+<header class="header">
+    <div class="header-inner">
+        <a class="signet" href="/">
+                <img src="/assets/img/static/fablab_lolo_small.png"/>
+        </a>
+        <ul class="main-nav">
+            
+            
+            <li ><a href="/blog">Blog</a></li>
+            <li ><a href="/about">About</a></li>
+            <li  class="current" ><a href="/projects">Projekte</a></li>
+            <li > <a href="/join">Mitmachen</a>
+
+            </li>
+            <li class="search mobile" style="display: none">
+                <form action="" method="get">
+                    <div class="form-group">
+                        <input class="search-field mobile" type="text" name="search" placeholder="Suche...">
+                    </div>
+                </form>
+                <div class="search-icon mobile">
+                    <img src="/assets/img/static/search-icon.svg"/>
+                </div>
+            </li>
+        </ul>
+        <div class="search desktop">
+            <form action="#" method="get">
+                <div class="form-group">
+                    <input id="search-query" class="search-field desktop" type="text" name="q" autocomplete="off" placeholder="Suche..." onkeypress="return event.keyCode!=13">
+                </div>
+            </form>
+        </div>
+        <div class="search-icon desktop">
+            <img src="/assets/img/static/search-icon.svg"/>
+        </div>
+        <div class="nav-toggle"><span></span></div>
+    </div>
+</header>
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+      {{#is_post}}
+      <ul>
+        {{#tags}}<li>{{.}} </li>{{/tags}}
+      </ul>
+      {{/is_post}}
+    </article>
+  {{/entries}}
+</script>
+
+<div class="page-wrap">
+    <section id="search-results" style="display: none;"> </section>
+    <!-- Add project -->
+
+
+<div class="row">
+    <section class="section first white col-xs-24">
+        <div class="content-wrap">
+            <!-- <h2 class="section-headline">Projekte</h2> -->
+            <!--    <p>Von der Idee zum Projekt: In den edulabs entwickeln Teams zusammen Projekte für zeitgemäße Bildung. Projektideen sammeln wir zuerst im <a href="https://hackdash.org/dashboards/edulabs">edulabs Hackdash</a>. Hat sich eine Arbeitsgruppe gefunden, wird diese sowie das Vorhaben im Folgenden aufgeführt.</p> -->
+        </div>
+        <div class="row content-wrap">
+          <form id="edit-project-form" class="form" method="post" action="https://staticman.okfn.de/v2/entry/okfde/edulabs/master/projects">
+
+            <!-- Project Name -->
+            <fieldset>
+              <label for="project-form-name"><strong>Projekttitel</strong> <span class="required">*</span></label>
+              <input type="text" id="project-form-name" name="fields[title]" value="" spellcheck="false" />
+            </fieldset>
+
+            <!-- Project Lab -->
+            <fieldset>
+              <label for="project-form-lab"><strong>Kategorie</strong> <span class="required">*</span></label>
+              <select name="fields[lab]" required>
+                <option value="Projekte" >Projekt</option>
+                <option value="Initiativen" >Initiative</option>
+              </select>
+            </fieldset>
+
+            <!-- Project status -->
+            <fieldset>
+              <label for="project-form-status"><strong>Status</strong> <span class="required">*</span></label>
+              <select name="fields[status]" required>
+                
+                  <option value="brainstorming" >brainstorming</option>
+                
+                  <option value="prototyping" >prototyping</option>
+                
+                  <option value="building" >building</option>
+                
+                  <option value="releasing" >releasing</option>
+                
+              </select>
+            </fieldset>
+
+            <!-- Project Short Text -->
+            <fieldset>
+              <label for="project-form-short-description"><strong>Projektbeschreibung</strong><span class="required"> *</span><br>Bitte beschreibe in wenigen Sätzen, welche Ziele das Projekt hat und welche Probleme es lösen soll. <span id="project-form-short-description-left">(noch 300 Zeichen)</span></label>
+              <textarea type="text" rows="6" id="project-form-short-description" name="fields[short-desc]" spellcheck="true"></textarea>
+            </fieldset>
+
+            <!-- Project Needs Text -->
+            <fieldset>
+              <label for="project-form-needs"><strong>Welche Unterstützung benötigst du für das Projekt?</strong><span class="required"> *</span><br>Bitte beschreibe in kurzen Sätzen, welche Probleme noch zu lösen sind und die Fertigkeiten, die dafür benötigt werden.</label>
+              <textarea type="text" rows="6" id="project-form-needs" name="fields[needs]" spellcheck="true"></textarea>
+            </fieldset>
+
+            <!-- Project Text -->
+            <fieldset>
+              <label for="project-form-description"><strong>Weitere Informationen</strong><br>Hier ist Platz für mehr Details zum Projekt.</label>
+              <textarea type="text" rows="6" id="project-form-description" name="fields[info]" spellcheck="true"></textarea>
+            </fieldset>
+
+            <!-- Link to the Project -->
+            <fieldset>
+              <label for="project-form-link"><strong>Projektlink</strong><br>Hier kannst du einen Link zum Projektdokument oder einem ersten Prototypen teilen.</label>
+              <input type="text" id="project-form-link" name="fields[link]" value="" spellcheck="false"/>
+            </fieldset>
+
+            <!-- Link to a Project Image -->
+            <fieldset>
+              <label for="project-form-image"><strong>Projektbild</strong><br>
+              Du hast ein Bild, welches dein Projekt darstellt? Dann schicke es uns in einer <a href="mailto:info@edulabs.de">E-Mail</a>, mit einer der folgenden <a target="_blank" href="https://creativecommons.org/licenses/">Creative Commons</a> Lizenzangaben: CC0, CC-BY und CC-BY-SA.
+              </label>
+            </fieldset>
+
+
+            <!-- Project Contact -->
+            <fieldset>
+              <strong>Kontakt</strong>
+                    <br>Um es möglichen Unterstützer*innen leicht zu machen, Kontakt mit dir aufzunehmen sowie für Rückfragen benötigen wir einen Kontakt, der auf edulabs.de veröffentlicht wird. Du kannst weitere Kontaktpersonen hinzufügen, sofern dein Team größer ist.
+                    
+                    
+                    <div class="contacts">
+                          <label for="project-form-contact-name"><strong>Name</strong> <span class="required">*</span></label>
+                          <input type="text" id="project-form-contact-name" name="fields[contact-name]" value="" spellcheck="false"/>
+                          <label for="project-form-contact-email"><strong>Email</strong> <span class="required">*</span></label>
+                          <input type="text" id="project-form-contact-email" name="fields[contact-email]" value="" spellcheck="false"/>
+                      </div>
+                    
+                    <p>
+                    <button type="button" class="edu-btn small black" onclick="$('#contact-template').children().clone().appendTo('.contacts')">+ Kontakt hinzufügen</button>
+                    </p>
+                    <br/>
+            </fieldset>
+
+            <fieldset class="hidden" style="display:none;">
+              <input type="hidden" name="options[origin]" value="http://localhost:4000/projects/add">
+              <label for="comment-form-location">Leave blank if you are a human</label>
+              <input id="spam_info" type="hidden" name="fields[human]" value="false">
+              <input id="redirect_url" type="hidden" name="options[redirect]" value="{{site.url}}">
+            </fieldset>
+
+            <p class="hidden js-notice">
+              <span class="js-notice-text"></span>
+            </p>
+            <!-- End comment form alert messaging -->
+            <fieldset>
+              <button type="submit" id="comment-form-submit" class="edu-btn black">Projekte senden</button>
+            </fieldset>
+      </form>
+      <div id="edit-project-form-submit"></div>
+      <div id="project-submit-message" style="display: none">
+        <h2>Vielen Dank, dass du dein Projekt veröffentlicht hast.<h2>
+            <p>
+            Nach einer kurzen Sichtung, wird es für edulabs.de freigeschaltet und abrufbar sein. Um mit der Community in Kontakt zu treten und für dein Projekt zu werben steht die edulabs Mailingliste zur Verfügung:</p>
+            <div class="content-wrap btn-wrap">
+                <a class="edu-btn black" href="https://listen.jpberlin.de/mailman/listinfo/edulabs" target="_blank">zur Mailingliste</a>
+            </div>
+      </div>
+      <div id="contact-template" style="display: none">
+        <label for="project-form-contact-name"><strong>Name</strong> <span class="required">*</span></label>
+        <input type="text" id="project-form-contact-name" name="fields[contact-name]" value="" spellcheck="false"/>
+        <label for="project-form-contact-email"><strong>Email</strong> <span class="required">*</span></label>
+        <input type="text" id="project-form-contact-email" name="fields[contact-email]" value="" spellcheck="false"/>
+      </div>
+      </div>
+    </section>
+</div>
+
+
+
+<!-- include mitmachen section -->
+<!-- mitmachen -->
+<div class="row">
+    <section id="apply" class="section blue col-xs-24">
+        <div class="content-wrap">
+            <h2 class="section-headline">Mitmachen</h2>
+            <p>Du möchtest Teil unserer Werkstatt-Gemeinschaft werden, dich austauschen und die Werkzeuge sowie Maschinen nutzen? Dann werde Mitglied des FabLab Cottbus e.V.</p>
+        </div>
+        <div class="content-wrap btn-wrap">
+            <a class="edu-btn white" href="http://localhost:4000/join" target="_blank">...und wie?</a>
+        </div>
+    </section>
+</div>
+
+
+</div>
+<footer class="footer section white">
+    <h2>In Kontakt bleiben</h2>
+    <div class="social-nav">
+        <!-- Newsletter -->
+        <ul>
+            <li><div class="btn-wrap">
+                <a class="edu-btn black" href="http://fablab-cottbus.de/mail/subscribe.htm" target="_blank">Newsletter</a>
+            </div></li>
+            <li><div class="btn-wrap">
+                <a class="edu-btn black" href="http://fablab-cottbus.de/mail/subscribe.htm" target="_blank">Mailingliste</a>
+            </div></li>
+        </ul>
+        <br>
+        <ul class="icons-list">
+            <li><a class="icon black" href="mailto:info@fablab-cottbus.de"><i class="icon-paper-plane-empty">&#xf1d9;</i></a></li>
+            <li><a class="icon black" href="https://twitter.com/fablabcb" target="_blank" ><i class="icon-twitter">&#xf099;</i></a></li>
+            <li><a class="icon btn-github black" href="https://github.com/fablabcb/fablabcb.de" target="_blank" ><i class="icon-github-circled">&#xe800;</i></a></li>
+            <li><a class="icon btn-rss black" target="_blank" ><i class="icon-rss">&#xf09e;</i></a>
+                <div id="rsslinks" style="display: none;">
+                    <a href="/blog.xml">Blog RSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="sponsors-nav">
+        <ul>
+            <li class="cc-info">
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><p class="bold">Inhalte dieser Webseite sind, sofern nicht anders angegeben, nach <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution lizenziert.</a>
+           </li>
+        </ul>
+        <div class="foot-links">
+        <a class="conduct simple-btn" href="http://fablab-cottbus.de/images/c/c2/Satzung.vom.22.10.2013.pdf">Vereinssatzung</a>
+        <a class="imprint simple-btn" href="/impressum">Impressum</a>
+        </div>
+    </div>
+</footer>
+
+        <!-- js libs -->
+        <script src="/assets/js/vendor/jquery.min.js"></script>
+        <script src="/assets/js/vendor/isotope.pkgd.min.js"></script>
+        <script src="/assets/js/vendor/imagesloaded.pkgd.js"></script>
+        <script src="/assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="/assets/js/vendor/logger.min.js"></script>
+
+        <script src="/assets/js/vendor/lunr.min.js"></script>
+        <script src="/assets/js/vendor/mustache.min.js"></script>
+        <script src="/assets/js/vendor/date.format.js"></script>
+        <script src="/assets/js/vendor/URI.js"></script>
+        <script src="/assets/js/vendor/jquery.lunr.search.js"></script>
+        <script src="/assets/js/vendor/trianglify.min.js"></script>
+
+        <!-- js custom -->
+        <script src="/assets/js/modules/IsotopeController.js"></script>
+        <script src="/assets/js/main.js?v=2.0"></script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $('#search-query').lunrSearch({
+                  indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+                  results   : '#search-results',          // selector for containing search results element
+                  template  : '#search-results-template', // selector for Mustache.js template
+                  titleMsg  : '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+                  emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
+                });
+
+               var drawRandomTeaser = function () {
+                    $.each($('.project-teaser.random-image'), function(i,e) {
+                        var pattern = Trianglify({
+                                          height: 200,
+                                          width: $(e).width(),
+                                          cell_size: 30 + Math.random() * 100});
+                        $('.teaser-image', this).html(pattern.canvas());
+                    });
+               }
+
+               $(window).resize(drawRandomTeaser);
+               drawRandomTeaser();
+
+                $('.btn-rss').click(function () {
+                    $('#rsslinks').fadeToggle(200);
+                });
+
+                window.controller = new Controller($);
+                window.controller.init();
+
+            });
+        </script>
+
+</body>
+</html>
+

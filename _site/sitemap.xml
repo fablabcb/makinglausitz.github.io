@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/projects/edulabsBE/</loc>
-<lastmod>2018-04-01T14:32:30+02:00</lastmod>
+<lastmod>2018-05-17T17:49:32+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/edit</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/projects/edulabsBE/edit</loc>
-<lastmod>2018-04-01T14:32:30+02:00</lastmod>
+<lastmod>2018-05-17T17:49:32+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -38,14 +38,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/join/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/projects/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/Fortbildungen</loc>
 </url>
 </urlset>

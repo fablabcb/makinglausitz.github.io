@@ -576,7 +576,7 @@ a, a:active, a:focus {
   /* disable the IOS popup when long-press on a link */ }
 
 *::selection {
-  background: #000080;
+  background: #fecc17;
   color: #fff; }
 
 input:-webkit-autofill {
@@ -659,10 +659,10 @@ input:-webkit-autofill {
   color: #f0f0f0; }
 
 .green {
-  color: #aa0000; }
+  color: #000; }
 
 .blue {
-  color: #000080; }
+  color: #fecc17; }
 
 .bg-black {
   background-color: #000; }
@@ -674,10 +674,10 @@ input:-webkit-autofill {
   background-color: #f0f0f0; }
 
 .bg-green {
-  background-color: #aa0000; }
+  background-color: #000; }
 
 .bg-blue {
-  background-color: #000080; }
+  background-color: #fecc17; }
 
 .img-responsive {
   width: 100%;
@@ -775,15 +775,15 @@ http://0to255.com/
       background-color: #fff !important;
       border: 2px solid #fff; }
   .edu-btn.blue {
-    color: #000080 !important;
-    border: 2px solid #000080; }
+    color: #fecc17 !important;
+    border: 2px solid #fecc17; }
     .edu-btn.blue:visited {
-      color: #000080 !important;
-      border: 2px solid #000080; }
+      color: #fecc17 !important;
+      border: 2px solid #fecc17; }
     .edu-btn.blue:hover {
       color: white !important;
-      background-color: #000080 !important;
-      border: 2px solid #000080; }
+      background-color: #fecc17 !important;
+      border: 2px solid #fecc17; }
 
 .teaser-buttons-wrap .edu-btn {
   width: 100%;
@@ -3294,7 +3294,7 @@ contentpage elements
     -o-transition: box-shadow 0.5s ease;
     transition: box-shadow 0.5s ease;
     box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.1);
-    background-color: #aa0000;
+    background-color: #000;
     color: #000;
     text-align: left;
     width: 100%;
@@ -3361,10 +3361,10 @@ teasers
       padding: 20px; }
       .teaser .teaser-inner .teaser-content .teaser-headline {
         word-break: break-word;
-        color: #aa0000; }
+        color: #000; }
       .teaser .teaser-inner .teaser-content .teaser-headline-oer {
         word-break: break-word;
-        color: #aa0000;
+        color: #000;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         hyphens: auto;
@@ -3511,7 +3511,7 @@ teasers
         -o-transition: opacity 0.25s ease;
         transition: opacity 0.25s ease; }
   .teaser.blog-teaser .teaser-inner:hover {
-    background-color: #aa0000; }
+    background-color: #000; }
     .teaser.blog-teaser .teaser-inner:hover .teaser-date, .teaser.blog-teaser .teaser-inner:hover .teaser-arrow:after {
       color: #fff; }
   .teaser.blog-teaser .teaser-copy {
@@ -3552,13 +3552,13 @@ filter items
     .filter-items .filter-item.disabled {
       pointer-events: none; }
   .filter-items.green .filter-item {
-    background-color: #aa0000;
+    background-color: #000;
     color: #000; }
     .filter-items.green .filter-item.hover, .filter-items.green .filter-item.active {
       background-color: #000;
       color: #fff; }
   .filter-items.blue .filter-item {
-    background-color: #000080;
+    background-color: #fecc17;
     color: #fff; }
     .filter-items.blue .filter-item.hover, .filter-items.blue .filter-item.active {
       background-color: #000;
@@ -3648,7 +3648,7 @@ filter items
       width: 0.5em;
       background-color: #e3e3e3; }
   .comment.admin.child:before {
-    background-color: #aa0000; }
+    background-color: #000; }
   .comment.admin .comment__avatar {
     /* &:after {
        background-color: $primary-color;
@@ -4122,7 +4122,7 @@ a, a:visited {
   line-height: 1; }
 
 .link-list {
-  color: #000080; }
+  color: #fecc17; }
   .link-list .link-list-headline {
     display: block;
     margin-bottom: 20px; }
@@ -4130,7 +4130,7 @@ a, a:visited {
     background-color: transparent !important; }
 
 .external-link {
-  color: #000080 !important;
+  color: #fecc17 !important;
   display: block; }
   .external-link.fixed:hover::before {
     margin-left: 0px; }
@@ -4246,7 +4246,7 @@ WRAPPER STYLES
         cursor: pointer; }
         .page-wrap .page-description p.more-btn:after {
           content: ' mehr...';
-          color: #000080;
+          color: #fecc17;
           cursor: pointer; }
         .page-wrap .page-description p.more-btn.gone:after {
           display: none; }
@@ -4254,10 +4254,10 @@ WRAPPER STYLES
         cursor: pointer; }
         .page-wrap .page-description p.less-btn:after {
           content: ' weniger...';
-          color: #000080;
+          color: #fecc17;
           cursor: pointer; }
       .page-wrap .page-description p a {
-        color: #000080;
+        color: #fecc17;
         font-size: 1.5rem; }
     .page-wrap .page-description .more-block {
       -webkit-transition: max-height 0.25s ease-out;
@@ -4408,7 +4408,7 @@ HEADER STYLES
         .header .header-inner ul.main-nav li:last-of-type {
           margin-right: 0; }
         .header .header-inner ul.main-nav li.current a {
-          color: #aa0000; }
+          color: #000; }
         .header .header-inner ul.main-nav li a {
           -webkit-transition: color 0.25s ease;
           -moz-transition: color 0.25s ease;
@@ -4418,10 +4418,10 @@ HEADER STYLES
           .header .header-inner ul.main-nav li a :visited {
             color: #000; }
           .header .header-inner ul.main-nav li a:hover, .header .header-inner ul.main-nav li a:focus {
-            color: #aa0000; }
+            color: #000; }
 
 .submenu-focus {
-  color: #aa0000; }
+  color: #000; }
 
 /*********************
 HERO
@@ -4451,7 +4451,7 @@ body:not(.safari) .hero.home {
       display: block; }
   .hero.home {
     height: 80vh;
-    background: url("/assets/img/static/fablabcb_aufmacher2-1024x616.jpg") no-repeat;
+    background: url("/assets/img/static/ml_main.JPG") no-repeat;
     background-size: cover;
     background-position: center; }
     @media only screen and (max-width: 640px) {
@@ -4489,9 +4489,9 @@ PAGE & SECTIONS
     -o-transition: background-color 0.25s ease;
     transition: background-color 0.25s ease; }
   .subpage-content a, .subpage-content a:focus, .subpage-content a:visited, .teaser-content a, .teaser-content a:focus, .teaser-content a:visited {
-    background-color: rgba(170, 0, 0, 0.3); }
+    background-color: rgba(254, 204, 23, 0.3); }
   .subpage-content a:hover, .teaser-content a:hover {
-    background-color: #aa0000; }
+    background-color: #fecc17; }
 
 .grid-sizer {
   position: absolute; }
@@ -4534,7 +4534,7 @@ PAGE & SECTIONS
     background-color: #bcbec0;
     color: #000; }
   .section.blue {
-    background-color: #000080;
+    background-color: #fecc17;
     color: #fff; }
 
 /*********************
@@ -4595,9 +4595,9 @@ EDUSPRINT
       -o-transition: background-color 0.25s ease;
       transition: background-color 0.25s ease; }
     .edusprint .edusprint-filters .zuruck-link a, .edusprint .edusprint-filters .zuruck-link a:focus, .edusprint .edusprint-filters .zuruck-link a:visited {
-      background-color: rgba(170, 0, 0, 0.3); }
+      background-color: rgba(254, 204, 23, 0.3); }
     .edusprint .edusprint-filters .zuruck-link a:hover {
-      background-color: #aa0000; }
+      background-color: #fecc17; }
 .edusprint .edusprint-authors-wrap {
   display: block;
   padding: 50px 0; }
@@ -4614,7 +4614,7 @@ EDUSPRINT
       height: 100%;
       display: flex; }
     .edusprint .edusprint-authors-wrap .edusprint-author .author-image-wrap {
-      background-color: #aa0000;
+      background-color: #000;
       padding-bottom: 33.33333333%;
       display: none; }
       .edusprint .edusprint-authors-wrap .edusprint-author .author-image-wrap .author-smiley {
@@ -4633,7 +4633,7 @@ EDUSPRINT
 .edusprint .subpage-content {
   padding-top: 80px; }
   .edusprint .subpage-content .excerpt {
-    color: #000080;
+    color: #fecc17;
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px; }
@@ -4649,7 +4649,7 @@ EDUSPRINT
     max-height: 1000px; }
 .edusprint .more-filters-btn {
   display: block;
-  background-color: #000080;
+  background-color: #fecc17;
   padding: 12.5px 0; }
   .edusprint .more-filters-btn span {
     color: white; }
@@ -4701,11 +4701,11 @@ EDUSPRINT
       display: inline-block; }
     .edusprint .filter-items .icons-wrap .filter-icon span {
       display: block;
-      color: #000080;
+      color: #fecc17;
       font-size: 0.8rem;
       font-weight: 700; }
 .edusprint .edusprint-medieneinsatz .filter-items-headline, .edusprint .edusprint-zielgruppe .filter-items-headline, .edusprint .edusprint-dauer .filter-items-headline, .edusprint .edusprint-vorbereitungszeit .filter-items-headline {
-  color: #000080; }
+  color: #fecc17; }
 .edusprint .edusprint-fach .filter-items-headline {
   color: white; }
 .edusprint .edusprint-faecher, .edusprint .edusprint-tags {
@@ -4807,7 +4807,7 @@ FOOTER STYLES
           padding: 10px 10px;
           text-align: center; }
           .footer .social-nav ul.icons-list li .icon:hover {
-            color: #aa0000; }
+            color: #000; }
           .footer .social-nav ul.icons-list li .icon i {
             font-family: 'fontello';
             margin-right: 15px;
@@ -5186,7 +5186,7 @@ IPAD landscape (col-md)
       .header .header-inner ul.main-nav li:last-of-type {
         margin-right: 0; }
       .header .header-inner ul.main-nav li.current a {
-        color: #aa0000; }
+        color: #000; }
       .header .header-inner ul.main-nav li a {
         -webkit-transition: color 0.25s ease;
         -moz-transition: color 0.25s ease;
@@ -5196,7 +5196,7 @@ IPAD landscape (col-md)
         .header .header-inner ul.main-nav li a :visited {
           color: #000; }
         .header .header-inner ul.main-nav li a:hover, .header .header-inner ul.main-nav li a:focus {
-          color: #aa0000; }
+          color: #000; }
 
   /*********************
   EDUSPRINT

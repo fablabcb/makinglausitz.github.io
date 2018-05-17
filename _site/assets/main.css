@@ -659,7 +659,7 @@ input:-webkit-autofill {
   color: #f0f0f0; }
 
 .green {
-  color: #000; }
+  color: #fecc17; }
 
 .blue {
   color: #fecc17; }
@@ -674,7 +674,7 @@ input:-webkit-autofill {
   background-color: #f0f0f0; }
 
 .bg-green {
-  background-color: #000; }
+  background-color: #fecc17; }
 
 .bg-blue {
   background-color: #fecc17; }
@@ -3294,7 +3294,7 @@ contentpage elements
     -o-transition: box-shadow 0.5s ease;
     transition: box-shadow 0.5s ease;
     box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.1);
-    background-color: #000;
+    background-color: #fecc17;
     color: #000;
     text-align: left;
     width: 100%;
@@ -3361,10 +3361,10 @@ teasers
       padding: 20px; }
       .teaser .teaser-inner .teaser-content .teaser-headline {
         word-break: break-word;
-        color: #000; }
+        color: #fecc17; }
       .teaser .teaser-inner .teaser-content .teaser-headline-oer {
         word-break: break-word;
-        color: #000;
+        color: #fecc17;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         hyphens: auto;
@@ -3511,7 +3511,7 @@ teasers
         -o-transition: opacity 0.25s ease;
         transition: opacity 0.25s ease; }
   .teaser.blog-teaser .teaser-inner:hover {
-    background-color: #000; }
+    background-color: #fecc17; }
     .teaser.blog-teaser .teaser-inner:hover .teaser-date, .teaser.blog-teaser .teaser-inner:hover .teaser-arrow:after {
       color: #fff; }
   .teaser.blog-teaser .teaser-copy {
@@ -3552,7 +3552,7 @@ filter items
     .filter-items .filter-item.disabled {
       pointer-events: none; }
   .filter-items.green .filter-item {
-    background-color: #000;
+    background-color: #fecc17;
     color: #000; }
     .filter-items.green .filter-item.hover, .filter-items.green .filter-item.active {
       background-color: #000;
@@ -3648,7 +3648,7 @@ filter items
       width: 0.5em;
       background-color: #e3e3e3; }
   .comment.admin.child:before {
-    background-color: #000; }
+    background-color: #fecc17; }
   .comment.admin .comment__avatar {
     /* &:after {
        background-color: $primary-color;
@@ -4408,7 +4408,7 @@ HEADER STYLES
         .header .header-inner ul.main-nav li:last-of-type {
           margin-right: 0; }
         .header .header-inner ul.main-nav li.current a {
-          color: #000; }
+          color: #fecc17; }
         .header .header-inner ul.main-nav li a {
           -webkit-transition: color 0.25s ease;
           -moz-transition: color 0.25s ease;
@@ -4418,10 +4418,10 @@ HEADER STYLES
           .header .header-inner ul.main-nav li a :visited {
             color: #000; }
           .header .header-inner ul.main-nav li a:hover, .header .header-inner ul.main-nav li a:focus {
-            color: #000; }
+            color: #fecc17; }
 
 .submenu-focus {
-  color: #000; }
+  color: #fecc17; }
 
 /*********************
 HERO
@@ -4614,7 +4614,7 @@ EDUSPRINT
       height: 100%;
       display: flex; }
     .edusprint .edusprint-authors-wrap .edusprint-author .author-image-wrap {
-      background-color: #000;
+      background-color: #fecc17;
       padding-bottom: 33.33333333%;
       display: none; }
       .edusprint .edusprint-authors-wrap .edusprint-author .author-image-wrap .author-smiley {
@@ -4807,7 +4807,7 @@ FOOTER STYLES
           padding: 10px 10px;
           text-align: center; }
           .footer .social-nav ul.icons-list li .icon:hover {
-            color: #000; }
+            color: #fecc17; }
           .footer .social-nav ul.icons-list li .icon i {
             font-family: 'fontello';
             margin-right: 15px;
@@ -5186,7 +5186,7 @@ IPAD landscape (col-md)
       .header .header-inner ul.main-nav li:last-of-type {
         margin-right: 0; }
       .header .header-inner ul.main-nav li.current a {
-        color: #000; }
+        color: #fecc17; }
       .header .header-inner ul.main-nav li a {
         -webkit-transition: color 0.25s ease;
         -moz-transition: color 0.25s ease;
@@ -5196,7 +5196,7 @@ IPAD landscape (col-md)
         .header .header-inner ul.main-nav li a :visited {
           color: #000; }
         .header .header-inner ul.main-nav li a:hover, .header .header-inner ul.main-nav li a:focus {
-          color: #000; }
+          color: #fecc17; }
 
   /*********************
   EDUSPRINT

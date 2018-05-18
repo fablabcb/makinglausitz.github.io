@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f9ed7b-9c59-4a92-9ae1-7eeee4b1a278" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.liquid" afterPath="$PROJECT_DIR$/_includes/header.liquid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" afterPath="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/img/static/ml_main.JPG" afterPath="$PROJECT_DIR$/_site/assets/img/static/ml_main.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/3D-Druck-für-das-neue-Jahr-einen-neuen-Finger.html" afterPath="$PROJECT_DIR$/_site/blog/3D-Druck-für-das-neue-Jahr-einen-neuen-Finger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/Bauanleitung-für-Bluetooth-Musikbox-mit-HiFi-Sound.html" afterPath="$PROJECT_DIR$/_site/blog/Bauanleitung-für-Bluetooth-Musikbox-mit-HiFi-Sound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/index.html" afterPath="$PROJECT_DIR$/_site/blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/impressum/index.html" afterPath="$PROJECT_DIR$/_site/impressum/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/index.json" afterPath="$PROJECT_DIR$/_site/js/index.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/add.html" afterPath="$PROJECT_DIR$/_site/projects/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/edulabsBE/edit.html" afterPath="$PROJECT_DIR$/_site/projects/edulabsBE/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/edulabsBE/index.html" afterPath="$PROJECT_DIR$/_site/projects/edulabsBE/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/edit.html" afterPath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/index.html" afterPath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +31,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="15" column="195" lean-forward="false" selection-start-line="15" selection-start-column="195" selection-end-line="15" selection-end-column="195" />
+            <state relative-caret-position="255">
+              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -28,14 +44,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="496">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apply.liquid" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apply.liquid" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/partials/sections/apply.liquid">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -104,9 +120,9 @@
       <find>fav</find>
       <find>img</find>
       <find>sponsors-nav</find>
-      <find>ico</find>
       <find>problemen</find>
       <find>icon</find>
+      <find>ico</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,10 +160,10 @@
         <option value="$PROJECT_DIR$/assets/_scss/breakpoints/_base.scss" />
         <option value="$PROJECT_DIR$/assets/_scss/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.liquid" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_includes/header.liquid" />
         <option value="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -951,22 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="15" column="195" lean-forward="false" selection-start-line="15" selection-start-column="195" selection-end-line="15" selection-end-column="195" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.liquid">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -979,6 +979,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="122" lean-forward="false" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
           <folding />
         </state>
       </provider>

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f9ed7b-9c59-4a92-9ae1-7eeee4b1a278" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/img/static/ml_main.JPG" afterPath="$PROJECT_DIR$/_site/assets/img/static/ml_main.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/3D-Druck-für-das-neue-Jahr-einen-neuen-Finger.html" afterPath="$PROJECT_DIR$/_site/blog/3D-Druck-für-das-neue-Jahr-einen-neuen-Finger.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/Bauanleitung-für-Bluetooth-Musikbox-mit-HiFi-Sound.html" afterPath="$PROJECT_DIR$/_site/blog/Bauanleitung-für-Bluetooth-Musikbox-mit-HiFi-Sound.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/index.html" afterPath="$PROJECT_DIR$/_site/blog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/impressum/index.html" afterPath="$PROJECT_DIR$/_site/impressum/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/index.json" afterPath="$PROJECT_DIR$/_site/js/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/add.html" afterPath="$PROJECT_DIR$/_site/projects/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/edulabsBE/edit.html" afterPath="$PROJECT_DIR$/_site/projects/edulabsBE/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/edulabsBE/index.html" afterPath="$PROJECT_DIR$/_site/projects/edulabsBE/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/edit.html" afterPath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/index.html" afterPath="$PROJECT_DIR$/_site/projects/vom-physikalischen-ereignis-zum-datensatz-workshop-weiterentwickeln/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+              <caret line="16" column="184" lean-forward="false" selection-start-line="16" selection-start-column="184" selection-end-line="16" selection-end-column="184" />
               <folding />
             </state>
           </provider>
@@ -994,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+          <caret line="16" column="184" lean-forward="false" selection-start-line="16" selection-start-column="184" selection-end-line="16" selection-end-column="184" />
           <folding />
         </state>
       </provider>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03f9ed7b-9c59-4a92-9ae1-7eeee4b1a278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.liquid" afterPath="$PROJECT_DIR$/_includes/header.liquid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" afterPath="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apply.liquid" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apply.liquid" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/partials/sections/apply.liquid">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="139" lean-forward="false" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="139" />
+              <caret line="8" column="122" lean-forward="false" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.liquid" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.liquid" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.liquid">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="121" lean-forward="false" selection-start-line="9" selection-start-column="121" selection-end-line="9" selection-end-column="121" />
+              <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -103,9 +104,9 @@
       <find>fav</find>
       <find>img</find>
       <find>sponsors-nav</find>
-      <find>icon</find>
       <find>ico</find>
       <find>problemen</find>
+      <find>icon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,8 +146,8 @@
         <option value="$PROJECT_DIR$/_includes/footer.liquid" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" />
         <option value="$PROJECT_DIR$/_includes/header.liquid" />
+        <option value="$PROJECT_DIR$/_includes/partials/sections/apply.liquid" />
       </list>
     </option>
   </component>
@@ -958,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/partials/sections/apply.liquid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="139" lean-forward="false" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -977,7 +970,15 @@
     <entry file="file://$PROJECT_DIR$/_includes/header.liquid">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="121" lean-forward="false" selection-start-line="9" selection-start-column="121" selection-end-line="9" selection-end-column="121" />
+          <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/partials/sections/apply.liquid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="122" lean-forward="false" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
           <folding />
         </state>
       </provider>

@@ -18,8 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fablabcb
 permalink: /blog/:title
-staticman_server: 'https://staticman.okfn.de'
-url: "http://making-lausitz.de"
+url: "makinglausitz.github.io"
 
 # Build settings
 highlighter: rouge

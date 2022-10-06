@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     autoprefixer-rails (7.1.6)
       execjs
     bootstrap-sass (3.3.7)
@@ -42,7 +42,7 @@ GEM
       listen (~> 3.0, < 3.1)
     json (2.1.0)
     kramdown (1.15.0)
-    libv8 (3.16.14.19-x86-linux)
+    libv8 (3.16.14.19)
     liquid (4.0.0)
     liquid-template-inheritance (2.6.2)
     listen (3.0.8)
@@ -56,7 +56,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.1)
+    public_suffix (5.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
